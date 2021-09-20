@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.fullbody{
+    display: flex;
+}
+
+.fullbody .left__body{
+    width: 18%;
+}
+
+.fullbody .left__body .part__1{
+    display: flex;
+}
+
+.fullbody .left__body .part__1 .img{
+    padding: 15px 0px 20px 20px;
+}
+
+.fullbody .left__body .part__1 .content{
+    margin: 10px;
+    padding: 7px;
+}
+
+.fullbody .left__body .part__1 .content .style-scope{
+    height: 20px;
+    width: auto;
+}
+
+.fullbody .left__body .part__2{
+    border-bottom: 1px solid #ddd;
+}
+
+.fullbody .left__body .part__2 .home{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+}
+
+.fullbody .left__body .part__2 .home .home__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__2 .home .home__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__2 .explore{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+}
+
+.fullbody .left__body .part__2 .explore .explore__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__2 .explore .explore__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__2 .subscriptions{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 20px 20px;
+}
+
+.fullbody .left__body .part__2 .subscriptions .subscriptions__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__2 .subscriptions .subscriptions__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__3{
+    border-bottom: 1px solid #ddd;
+}
+
+.fullbody .left__body .part__3 .library{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+}
+
+.fullbody .left__body .part__3 .library .library__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__3 .library .library__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__3 .history{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+}
+
+.fullbody .left__body .part__3 .history .history__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__3 .history .history__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__3 .video{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+}
+
+.fullbody .left__body .part__3 .video .video__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__3 .video .video__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__3 .watchlater{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+}
+
+.fullbody .left__body .part__3 .watchlater .watchlater__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__3 .watchlater .watchlater__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__3 .likedvideos{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 20px 20px;
+}
+
+.fullbody .left__body .part__3 .likedvideos .likedvideos__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__3 .likedvideos .likedvideos__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__4 .settings{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+}
+
+.fullbody .left__body .part__4 .settings .settings__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__4 .settings .settings__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__4 .report{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+}
+
+.fullbody .left__body .part__4 .report .report__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__4 .report .report__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__4 .help{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+}
+
+.fullbody .left__body .part__4 .help .help__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__4 .help .help__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__4 .feedback{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+}
+
+.fullbody .left__body .part__4 .feedback .feedback__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__4 .feedback .feedback__name{
+    padding-left: 30px;
+}
+
+.fullbody .left__body .part__4 .live{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 0px 20px;
+}
+
+.fullbody .left__body .part__4 .live .live__icon{
+    size: 50px;
+}
+
+.fullbody .left__body .part__4 .live .live__name{
+    padding-left: 30px;
+}
+
+.fullbody .right__body{
+    width: 100%;
+    
+}
+
+.fullbody .right__body .header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.fullbody .right__body .header .header__left{
+    
+    width: 100%;
+    padding: 5px;
+    display: flex;
+}
+
+.fullbody .right__body .header .header__left .search{
+    align-items: center;
+    margin: 10px;
+}
+
+.fullbody .right__body .header .header__right{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.fullbody .right__body .header .header__right .create button{
+    height: 30px;
+    width: auto;
+}
+
+.fullbody .right__body .header .header__right .youtube__app button{
+    height: 30px;
+    width: auto;
+}
+
+.fullbody .right__body .header .header__right .notification button{
+    height: 30px;
+    width: auto;
+}
+
+.fullbody .right__body .header .header__right .avatar{
+    height: 30px;
+    width: 30px;
+    
+}
+
+.fullbody .right__body .header .header__right .avatar img{
+    border-radius: 35px;
+    width: 100%;
+    height: 100%;
+}
+
+.fullbody .right__body .header2{
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid #ddd;
+}
+
+.fullbody .right__body .content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ddd;
+}
+
+.fullbody .right__body .content .video1 {
+    width:25%;
+    height: auto;
+    padding: 3px;
+}
+
+.fullbody .right__body .content .video1 .post img{
+    width: 100%;
+    height: 100%;
+}
+
+.fullbody .right__body .content .video1 .img{
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+}
+   
+.fullbody .right__body .content .video1 .img img{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 50px;
+
+} 
+
+.fullbody .right__body .content .video1 .profile{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.fullbody .right__body .content .video1 .profile .name {
+   margin-left: 10px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0px;
+}
+
+.right__body .header .header__left .search{
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.right__body .header .header__left .search input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+}
